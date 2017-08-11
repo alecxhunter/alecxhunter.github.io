@@ -1,0 +1,47 @@
+body {
+    font-size: 12px;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #000;
+}
+th, td {
+    /*padding: 6px;*/
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.node-start {
+    background: #47ca47;
+}
+.node-end {
+    background: #e83737;
+}
+.node-obstacle {
+    background: black;
+}
+.node-opened {
+    background: #fdc166;
+}
+.node-searched {
+    background: #f9e47a;
+}
+.node-shortest {
+    background: #78abf9;
+}
+
+.graph {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.controls {
+    margin-bottom: 15px;
+}
